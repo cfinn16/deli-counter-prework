@@ -1,8 +1,8 @@
 katz_deli = []
 
 def take_a_number(katz_deli, name)
-  
-  puts "Welcome"
+  katz_deli.push(name)
+  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 
 def line(katz_deli)
   if katz_deli.length < 1 
