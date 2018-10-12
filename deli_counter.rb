@@ -12,7 +12,7 @@ def line(katz_deli)
    i = 0 
    a = []
    while i < katz_deli.length 
-    a.push(" #{i + 1}.")
+    a.push(" #{i + 1}. #{katz_deli[i]}")
     i += 1
     end
   puts "The line is currently:#{a.to_s}"
