@@ -1,5 +1,9 @@
 katz_deli = []
 
+def take_a_number(katz_deli, name)
+  
+  puts "Welcome"
+
 def line(katz_deli)
   if katz_deli.length < 1 
     puts "The line is currently empty."
@@ -13,4 +17,6 @@ def line(katz_deli)
    puts "The line is currently: #{a}"
   end 
 end 
+
+def now_serving(katz_deli)
 
