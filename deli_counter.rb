@@ -15,7 +15,7 @@ def line(katz_deli)
     a.push("#{i+1}" + ". " + katz_deli[i])
     i += 1
     end
-  puts "The line is currently:#{a.join("")}" 
+  puts "The line is currently:#{a.join(" ")}" 
   end 
 end 
 
