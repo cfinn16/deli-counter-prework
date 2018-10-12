@@ -9,7 +9,13 @@ def line(katz_deli)
   if katz_deli.length < 1 
     puts "The line is currently empty."
   else 
-   
+   i = 0 
+   a = []
+   while i < katz_deli.length 
+    a.push(" #{i + 1}.")
+    i += 1
+    end
+  puts "The line is currently:#{a.to_s}"
   end 
 end 
 
