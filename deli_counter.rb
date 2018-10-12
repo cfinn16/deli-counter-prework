@@ -8,7 +8,7 @@ def line(katz_deli)
    i = 0
    while i < katz_deli.length
      i += 1      
-     a.push("#{i}. #{katz_deli[i]},")
+     a.unshift("#{i}. #{katz_deli[i]},")
    end
    puts "The line is currently: #{a}"
   end 
